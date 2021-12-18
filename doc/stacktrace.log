@@ -1,0 +1,50 @@
+Panic発生: string
+[{
+    "path": "github.com/aws/aws-lambda-go@v1.6.0/lambda/function.go",
+    "line": 27,
+    "label": "(*Function).Invoke.func1"
+},{
+    "path": "runtime/panic.go",
+    "line": 1038,
+    "label": "gopanic"
+},{
+    "path": "logging/main.go",
+    "line": 40,
+    "label": "Handler"
+},{
+    "path": "reflect/value.go",
+    "line": 543,
+    "label": "Value.call"
+},{
+    "path": "reflect/value.go",
+    "line": 339,
+    "label": "Value.Call"
+},{
+    "path": "github.com/aws/aws-lambda-go@v1.6.0/lambda/handler.go",
+    "line": 111,
+    "label": "newHandler.func1"
+},{
+    "path": "github.com/aws/aws-lambda-go@v1.6.0/lambda/handler.go",
+    "line": 22,
+    "label": "lambdaHandler.Invoke"
+},{
+    "path": "github.com/aws/aws-lambda-go@v1.6.0/lambda/function.go",
+    "line": 59,
+    "label": "(*Function).Invoke"
+},{
+    "path": "reflect/value.go",
+    "line": 543,
+    "label": "Value.call"
+},{
+    "path": "reflect/value.go",
+    "line": 339,
+    "label": "Value.Call"
+},{
+    "path": "net/rpc/server.go",
+    "line": 377,
+    "label": "(*service).call"
+},{
+    "path": "runtime/asm_amd64.s",
+    "line": 1581,
+    "label": "goexit"
+}]
